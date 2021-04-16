@@ -1,5 +1,4 @@
  
-    google.maps.event.addDomListener(window, 'load', init);
     function init() {
         var mapOptions = {
           zoom: 17,
@@ -28,4 +27,6 @@
           title: '24 Golden Tower (2nd floor), Amborkhana, Sylhet.!'
       });
     }
+
+google.maps.event.addDomListener(window, 'load', init);
 
